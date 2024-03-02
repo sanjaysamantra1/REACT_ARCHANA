@@ -1,0 +1,27 @@
+1. download vscode from below URL And install that
+  https://code.visualstudio.com/download
+
+2. Add 'Open in browser' extension in vscode, that will help to open html files in browser
+   alt + b     (open html file in browser)
+
+
+3. Create an html file(demo_1.html)
+   a. ! (enter) (generate boilerplate html file)
+   b. h1{this is a heading}
+   c. p*10{This is a paragraph-$}
+   d. if vscode intelligence stops working , remove the last character and type it again
+
+
+FrontEnd/UI Development
+=======================
+HTML   -  Content to a page
+CSS    -  style
+Bootstarp - CSS Framework (https://getbootstrap.com/)
+https://getbootstrap.com/docs/5.3/components/buttons/#button-tags
+Javascript - Behaviour (Action , Form Handling, DOM Manipulation , API call)
+
+React : Its a Javascript Framework
+        CLI - create a react project quickly
+        Template System - If Else , For loop
+        
+
