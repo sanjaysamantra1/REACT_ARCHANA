@@ -1,0 +1,50 @@
+React
+=====
+-The library using which user interfaces of a web application can be developed.
+
+Q. Why Angular is Framework & React is a library
+
+Framework										Library
+=========================================================================
+-Can do many things                             -Does only a specific thing
+-Collection of libraries                        -Collection of functions
+-angular									    -jQuery,ReactJs,lodash,moment,chartJs
+-Hospital with full of doctors					-A doctor who specializes in one 		
+
+
+
+		React						Angular
+===========================================================
+1. Library-2013					 1. Framework-2009
+2. Light-weight					 2. Heavy
+3. JSX + Javascript				 3. HTML + Typescript
+4. Uni-Directional				 4. Two-way
+5. Virtual DOM					 5. Regular DOM
+6. Axios 				 		 6. HttpClientModule 
+7. No 		 					 7. Dependency Injection
+8. No							 8. Form Validation
+9. extra libraries needed		 9. No additional libraries
+10. UI heavy					 10. Functionality Heavy
+
+
+React Project
+=============
+1. create a HTML File and include React CDN 
+2. create react project using 'create-react-app'
+3. Next.JS
+
+create react project using 'create-react-app'
+=============================================
+1. install NodeJS (https://nodejs.org/en/download)
+2. check if nodejs is installed?
+   cmd (node -v)
+3. check if npm is installed? 
+    NPM - Node Package Manager (Place to search packages/modules required for a react project) 
+   cmd ( npm -v )
+4. create a react project. go to a folder where project should be created
+   npx create-react-app MyProject1
+5. go to the project folder and start the project
+   cd MyProject1
+   npm start
+
+
