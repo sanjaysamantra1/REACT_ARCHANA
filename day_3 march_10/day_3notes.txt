@@ -1,0 +1,15 @@
+Create Components
+==================
+1. Navbar
+2. Carousel
+3. Main
+4. Footer
+
+How to install Bootstrap
+========================
+1. install bootstrap	
+   npm i bootstrap	
+2. add below 2 lines to index.js file
+   import 'bootstrap/dist/css/bootstrap.min.css';
+   import "bootstrap/dist/js/bootstrap.bundle.min.js";
+  
