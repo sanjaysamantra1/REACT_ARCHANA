@@ -16,7 +16,7 @@ export default function Carousel() {
         <img src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg" className="d-block w-100" alt="..." />
       </div>
       <div className="carousel-item">
-        <img src="https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_1280.jpg" className="d-block w-100" alt="..." />
+        <img src="assets/images/img_2.jpg" className="d-block w-100" alt="..." />
       </div>
     </div>
     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
