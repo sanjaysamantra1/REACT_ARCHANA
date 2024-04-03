@@ -5,6 +5,7 @@ import ListDemo1 from '../ListItem/ListDemo1';
 import ListDemo2 from '../ListItem/ListDemo2';
 import GreetDemo1 from '../props/GreetDemo1';
 import UserList from '../props/UserList';
+import ProductList from '../products/ProductList';
 
 export default function Main() {
   return <div className='container main'>
@@ -15,6 +16,7 @@ export default function Main() {
     {/* <GreetDemo1 name='sanjay' msg="good morning" />
     <GreetDemo1 name='Archana' msg="good Evening" />
     <GreetDemo1 name="deepak" msg="good afternoon" /> */}
-    <UserList />
+    {/* <UserList /> */}
+    <ProductList />
   </div>
 }

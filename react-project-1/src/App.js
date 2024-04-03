@@ -9,8 +9,8 @@ import Categories from './components/categories/Categories';
 function App() {
   return <>
     <Navbar />
-    <Categories />
-    <Carousel />
+    {/* <Categories /> */}
+    {/* <Carousel /> */}
     <Main />
     <Footer />
   </>
