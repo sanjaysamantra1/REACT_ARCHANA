@@ -6,6 +6,9 @@ import ListDemo2 from '../ListItem/ListDemo2';
 import GreetDemo1 from '../props/GreetDemo1';
 import UserList from '../props/UserList';
 import ProductList from '../products/ProductList';
+import Counter from '../state/Counter';
+import Counter_With_State from '../state/Counter_With_State';
+import ToggleVisibility from '../state/ToggleVisibility';
 
 export default function Main() {
   return <div className='container main'>
@@ -17,6 +20,9 @@ export default function Main() {
     <GreetDemo1 name='Archana' msg="good Evening" />
     <GreetDemo1 name="deepak" msg="good afternoon" /> */}
     {/* <UserList /> */}
-    <ProductList />
+    {/* <ProductList /> */}
+    {/* <Counter /> */}
+    {/* <Counter_With_State /> */}
+    <ToggleVisibility />
   </div>
 }
