@@ -9,6 +9,11 @@ import ProductList from '../products/ProductList';
 import Counter from '../state/Counter';
 import Counter_With_State from '../state/Counter_With_State';
 import ToggleVisibility from '../state/ToggleVisibility';
+import RemainingCharacter from '../state/RemainingCharacter';
+import SelectedCountry from '../state/SelectedCountry';
+import Addition from '../state/Addition';
+import FolderExplorer from '../state/FolderExplorer';
+import folderInfo from '../state/folderData.json';
 
 export default function Main() {
   return <div className='container main'>
@@ -23,6 +28,10 @@ export default function Main() {
     {/* <ProductList /> */}
     {/* <Counter /> */}
     {/* <Counter_With_State /> */}
-    <ToggleVisibility />
+    {/* <ToggleVisibility /> */}
+    {/* <RemainingCharacter /> */}
+    {/* <SelectedCountry />  */}
+    {/* <Addition /> */}
+    <FolderExplorer folderInfo={folderInfo} />
   </div>
 }
