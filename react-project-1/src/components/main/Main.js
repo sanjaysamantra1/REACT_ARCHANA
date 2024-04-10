@@ -14,6 +14,8 @@ import SelectedCountry from '../state/SelectedCountry';
 import Addition from '../state/Addition';
 import FolderExplorer from '../state/FolderExplorer';
 import folderInfo from '../state/folderData.json';
+import TrafficLight from '../state/TrafficLight';
+import ToDoCRUD from '../todo/ToDoCRUD';
 
 export default function Main() {
   return <div className='container main'>
@@ -32,6 +34,8 @@ export default function Main() {
     {/* <RemainingCharacter /> */}
     {/* <SelectedCountry />  */}
     {/* <Addition /> */}
-    <FolderExplorer folderInfo={folderInfo} />
+    {/* <FolderExplorer folderInfo={folderInfo} /> */}
+    {/* <TrafficLight /> */}
+    <ToDoCRUD />
   </div>
 }
