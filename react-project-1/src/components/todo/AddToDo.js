@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 
 export default function AddToDo({ addToDo }) {
+    console.log('Add Todo rendered...')
     const inputRef1 = useRef();
 
     return <>

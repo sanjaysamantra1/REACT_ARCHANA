@@ -16,6 +16,10 @@ import FolderExplorer from '../state/FolderExplorer';
 import folderInfo from '../state/folderData.json';
 import TrafficLight from '../state/TrafficLight';
 import ToDoCRUD from '../todo/ToDoCRUD';
+import HttpDemo1 from '../http/HttpDemo1';
+import HttpDemo2 from '../http/HttpDemo2';
+import HttpDemo3 from '../http/HttpDemo3';
+import HttpDemo4 from '../http/HttpDemo4';
 
 export default function Main() {
   return <div className='container main'>
@@ -36,6 +40,10 @@ export default function Main() {
     {/* <Addition /> */}
     {/* <FolderExplorer folderInfo={folderInfo} /> */}
     {/* <TrafficLight /> */}
-    <ToDoCRUD />
+    {/* <ToDoCRUD /> */}
+    {/* <HttpDemo1 /> */}
+    {/* <HttpDemo2 /> */}
+    {/* <HttpDemo3 /> */}
+    <HttpDemo4 />
   </div>
 }

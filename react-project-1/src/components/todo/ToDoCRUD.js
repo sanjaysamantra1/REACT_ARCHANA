@@ -3,6 +3,7 @@ import ToDoList from './ToDoList';
 import AddToDo from './AddToDo';
 
 export default function ToDoCRUD() {
+    const [counter, setCounter] = useState(0);
     let initialtodos = [
         { id: 1, text: 'To Do 1', completed: true },
         { id: 2, text: 'To Do 2', completed: false },
@@ -27,6 +28,8 @@ export default function ToDoCRUD() {
     }
     return <>
         <h2 className='text-center'>This is ToDo CRUD Example</h2>
+        <h3>count value is {counter}</h3>
+        <button onClick={() => { setCounter(counter + 1) }}>increment</button>
         <hr />
         <div className='container'>
             <div className='row'>
