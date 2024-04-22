@@ -20,6 +20,8 @@ import HttpDemo1 from '../http/HttpDemo1';
 import HttpDemo2 from '../http/HttpDemo2';
 import HttpDemo3 from '../http/HttpDemo3';
 import HttpDemo4 from '../http/HttpDemo4';
+import HttpDemo5 from '../http/HttpDemo5';
+import HttpCRUD from '../http/HttpCRUD';
 
 export default function Main() {
   return <div className='container main'>
@@ -44,6 +46,8 @@ export default function Main() {
     {/* <HttpDemo1 /> */}
     {/* <HttpDemo2 /> */}
     {/* <HttpDemo3 /> */}
-    <HttpDemo4 />
+    {/* <HttpDemo4 /> */}
+    {/* <HttpDemo5 /> */}
+    <HttpCRUD />
   </div>
 }
