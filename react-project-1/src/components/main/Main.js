@@ -22,6 +22,8 @@ import HttpDemo3 from '../http/HttpDemo3';
 import HttpDemo4 from '../http/HttpDemo4';
 import HttpDemo5 from '../http/HttpDemo5';
 import HttpCRUD from '../http/HttpCRUD';
+import FetchUsers from '../http/FetchUsers';
+import FetchComments from '../http/FetchComments';
 
 export default function Main() {
   return <div className='container main'>
@@ -48,6 +50,8 @@ export default function Main() {
     {/* <HttpDemo3 /> */}
     {/* <HttpDemo4 /> */}
     {/* <HttpDemo5 /> */}
-    <HttpCRUD />
+    {/* <HttpCRUD /> */}
+    <FetchUsers /><hr/>
+    <FetchComments />
   </div>
 }
