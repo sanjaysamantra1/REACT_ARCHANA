@@ -24,6 +24,11 @@ import HttpDemo5 from '../http/HttpDemo5';
 import HttpCRUD from '../http/HttpCRUD';
 import FetchUsers from '../http/FetchUsers';
 import FetchComments from '../http/FetchComments';
+import { Route, Routes } from 'react-router-dom';
+import Home from '../routing/Home';
+import Aboutus from '../routing/Aboutus';
+import Careers from '../routing/Careers';
+import Notfound from '../routing/Notfound';
 
 export default function Main() {
   return <div className='container main'>
@@ -51,7 +56,16 @@ export default function Main() {
     {/* <HttpDemo4 /> */}
     {/* <HttpDemo5 /> */}
     {/* <HttpCRUD /> */}
-    <FetchUsers /><hr/>
-    <FetchComments />
+    {/* <FetchUsers /><hr/> */}
+    {/* <FetchComments /> */}
+
+    <Routes>
+      <Route exact path="/" element={<Home />} ></Route>
+      <Route exact path="/home" element={<Home />} ></Route>
+      <Route exact path="/aboutus" element={<Aboutus />} ></Route>
+      <Route exact path="/careers" element={<Careers />} ></Route>
+      <Route exact path="/products" element={<ProductList />} ></Route>
+      <Route path="*" element={<Notfound />} />
+    </Routes>
   </div>
 }
